@@ -5,16 +5,16 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.4</version>
+		<version>2.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.spring-boot-jwt-cmc</groupId>
-	<artifactId>spring-boot-jwt-cmc</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>spring_jwt_cmc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-jwt-cmc</name>
-	<description>spring-boot-jwt-cmc</description>
+	<name>spring_jwt_cmc</name>
+	<description>spring_jwt_cmc</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -56,6 +56,12 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>3.18.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
